@@ -1,5 +1,5 @@
 import streamlit as st
-from agents.email_agent import generate_email_response
+from email_agent import generate_email_response
 
 st.set_page_config(page_title="Auto Email Responder", layout="wide")
 st.title("📧 Auto Email Response Generator")
